@@ -20,7 +20,10 @@ export const AuthProvider = ({ children }) => {
     const handleRegister = async (e, userData) => {
         e.preventDefault()
         try {
-            const { data } = await axios.post('https://ecommerce-next-js-xz5u.vercel.app//api/auth/register', userData)
+            const { data } = await axios.post(
+              "http://localhost:3000/api/auth/register",
+              userData
+            )
             setUser(data.others)
             setToken(data.token)
             localStorage.setItem("user", JSON.stringify(data.others))
