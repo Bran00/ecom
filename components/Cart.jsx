@@ -50,12 +50,12 @@ const Cart = () => {
                 </div>
                 <div>
                   <h3>{item.name}</h3>
-                  <span>{item.quantity} X ${item.price}</span>
+                  <span>{item.quantity} X  ${item.price}</span>
                 </div>
                 <AiOutlineClose size={20} onClick={() => removeCartItem(item)}/>
               </div>
             ))
-          ) : <span className="text-red-500 ml-2">Cart is empty!</span>}
+          ) : <span className="text-red-500 ml-2">Cart is empty!!!</span>}
         </div>
         <span className="inline-block">Total: <span>${cartItems.reduce((a, b) => a + b.price * b.quantity, 0)}</span></span>
         <span className="block max-w-max mt-8 px-6 py-1 bg-orange-500 text-[#efefef] rounded-lg" onClick={handleCheckout}>Checkout</span>
