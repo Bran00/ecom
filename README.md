@@ -1,38 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## My Ecommerce with NextJS
 
-## Getting Started
+![ecom!](public/assets/ecom.gif)
 
-First, run the development server:
 
-```bash
+### This project
+
+Build to taste our abilities in React and NextJS used my formation in field from developer to build my own Ecommerce!
+
+## Features
+
+=> Components of React; <br>
+=> Components of ReactDOM; <br>
+=> Components of ReactIcons; <br>
+=> Componets of NextJS; <br>
+=> Modules of CSS; <br>
+=> Custom own hooks; <br>
+=> Database of MongoDB; <br>
+=> Test of payments from Stripe; <br>
+=> Conventional Commmits. <br>
+
+### Live Version 
+
+<a href="https://3d-portifolio-five.vercel.app/">Click here</a>
+
+### Tecnologies Used
+
+=>[TypeScript](https://www.typescriptlang.org/) for structure;<br>
+=>[Next](https://nextjs.org/) for environment developer;<br>
+=>[react](https://reactjs.org/) and [ReactDOM](https://reactjs.org/docs/react-dom.html) for build the User Interface;<br>
+=>[react-icons](https://react-icons.github.io/react-icons/) for Icons;<br>
+=>[MongoDB](https://mongodb.com/) for structure of datas;<br>
+=>[Stripe](https://stripe.com/en-br) for test of payments;
+
+
+### Installation  
+
+Use this project with:
+
+[First pass] Clone the repository: `git clone https://github.com/`
+
+----------------------
+
+[Second pass] Make the install the dependencies:
+
+npm install
+
+---------------------
+[third pass] Put your keys from MongoDB and stripe into .env:
+
+---------------------
+
+[fourth pass] Search for https://vercel and change for http://localhost:3000/
+
+---------------------
+
+[fifth pass] Put application to run:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [](http://localhost:3000) with your browser to see the result.
+## Came with me
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+For this project, follow the <a href="https://nextjs.org/">Next documentation</a> for errors throughout the project.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
++++++++++++++
+Do you want contribute for this project?
++++++++++++++
+Came with me here:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
++ Fork in this repository;
++ Put a new brunch: `git checkout -b feature/your-feature-name`;
++ Make your changes and commit them using Conventional Commits(please)
++ Push to the branch: `git push origin feature/your-feature-name`
++ Submit a pull request
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
+=> With license MIT, this project was build!
 
-To learn more about Next.js, take a look at the following resources:
+### Credits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Hi, I'm Bran and I built this amazing project!
