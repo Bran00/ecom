@@ -26,7 +26,7 @@ const Cart = () => {
      })
 
      const { data } = await axios.post(
-       "https://ecom-klo3szwpo-bran00.vercel.app/api/checkout",
+       "https://ecom-mocha.vercel.app/api/checkout",
        {
          lineItems,
        }

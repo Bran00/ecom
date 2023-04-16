@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
         e.preventDefault()
         try {
             const { data } = await axios.post(
-              "https://ecom-klo3szwpo-bran00.vercel.app/api/auth/register",
+              "https://ecom-mocha.vercel.app/api/auth/register",
               userData
             )
             setUser(data.others)

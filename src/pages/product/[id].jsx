@@ -57,7 +57,7 @@ export async function getServerSideProps(ctx) {
     const id = ctx.params.id
 
     const { data: product } = await axios.get(
-      `https://ecom-klo3szwpo-bran00.vercel.app/api/products/${id}`
+      `https://ecom-mocha.vercel.app/api/products/${id}`
     )
 
     return {

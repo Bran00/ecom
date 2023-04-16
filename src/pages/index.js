@@ -32,9 +32,7 @@ export default function Home({ featuredProducts }) {
 
 
 export async function getServerSideProps(){
-  const { data } = await axios.get(
-    `https://ecom-klo3szwpo-bran00.vercel.app/api/products`
-  )
+  const { data } = await axios.get(`https://ecom-mocha.vercel.app/api/products`)
 
   return {
     props: {
