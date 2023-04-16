@@ -26,7 +26,7 @@ export async function getServerSideProps(ctx){
   const category = ctx.params.cat
 
   const { data } = await axios.get(
-    `https://ecom-ao5ive7o2-bran00.vercel.app/api/products?cat=${category}`
+    `https://ecom-mocha.vercel.app/api/products?cat=${category}`
   )
 
   return {

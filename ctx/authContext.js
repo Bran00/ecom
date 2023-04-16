@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
         e.preventDefault()
         try {
             const { data } = await axios.post(
-              "https://ecom-ao5ive7o2-bran00.vercel.app/api/auth/register",
+              "https://ecom-mocha.vercel.app/api/auth/register",
               userData
             )
             setUser(data.others)
@@ -39,7 +39,7 @@ export const AuthProvider = ({ children }) => {
         e.preventDefault()
         try {
             const { data } = await axios.post(
-              "https://ecom-ao5ive7o2-bran00.vercel.app/api/auth/login",
+              "https://ecom-mocha.vercel.app/api/auth/login",
               userData
             )
             console.log(data, 'LOGIN')
