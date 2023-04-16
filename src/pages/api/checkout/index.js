@@ -9,8 +9,8 @@ export default async function handler(req, res){
               line_items: req.body.lineItems,
               mode: "payment",
               payment_method_types: ["card"],
-              success_url: "https://ecom-mocha.vercel.app/success",
-              cancel_url: "https://ecom-mocha.vercel.app/",
+              success_url: "https://ecom-ao5ive7o2-bran00.vercel.app/success",
+              cancel_url: "https://ecom-ao5ive7o2-bran00.vercel.app/",
             })
 
             return res.status(201).json(session)

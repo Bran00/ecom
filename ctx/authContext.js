@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
         e.preventDefault()
         try {
             const { data } = await axios.post(
-              "https://ecom-mocha.vercel.app/api/auth/register",
+              "https://ecom-ao5ive7o2-bran00.vercel.app/api/auth/register",
               userData
             )
             setUser(data.others)
@@ -38,7 +38,10 @@ export const AuthProvider = ({ children }) => {
     const handleLogin = async (e, userData) => {
         e.preventDefault()
         try {
-            const { data } = await axios.post('https://ecommerce-next-js-xz5u.vercel.app/api/auth/login', userData)
+            const { data } = await axios.post(
+              "https://ecom-ao5ive7o2-bran00.vercel.app/api/auth/login",
+              userData
+            )
             console.log(data, 'LOGIN')
             setUser(data.others)
             setToken(data.token)
