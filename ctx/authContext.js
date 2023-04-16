@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
         e.preventDefault()
         try {
             const { data } = await axios.post(
-              "http://localhost:3000/api/auth/register",
+              "https://ecom-klo3szwpo-bran00.vercel.app/api/auth/register",
               userData
             )
             setUser(data.others)
