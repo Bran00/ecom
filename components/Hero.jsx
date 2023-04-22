@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="h-[500px] w-full flex justify-center mt-16 mb-[20rem]">
       <div className="relative h-[500px] w-10/12 mx-auto">
         <h1 className="text-center font-bold text-5xl">
-          WEBSITE IN DEVELOPMENT
+          WEBSITE MADE FOR USE DIDACTIC
         </h1>
         <Image
           className="h-[500px] object-cover rounded-xl"
